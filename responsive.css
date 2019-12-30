@@ -1,0 +1,305 @@
+
+
+
+/*		Default Layout: 100%. 
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+ nav #cssmenu{
+
+	display: none;
+}
+.readBox {
+    height: 565px;
+
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+	.container {
+    width: 100%;
+  
+}
+
+.right-header {
+    width: auto; 
+    float: right;
+}
+
+.wraper .rightPart{
+	display: none;
+
+}.container .wraper{
+
+	background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:40% 99%; 
+   	
+   
+} 
+.leftPart {
+    width: 100%;
+    float: left;
+    top: 0;
+    
+}
+
+.workBox {
+    
+    margin: 29px;
+   }
+
+.lastWorkBox {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+ .selpe{
+ 	display: none;
+ }
+.rightPart {
+	background-image: url('iam.png'), linear-gradient();
+
+	background-repeat: no-repeat;
+    background-position: right;
+    background-size:55% 100%;   	
+    width: 100%;
+    float: right;
+}
+.readMeBannar p {
+   
+    padding: 51px 32px;
+}
+.readBox {
+   
+    height: 415px;
+    margin: 32px; 
+}
+.whoIam {
+    margin-top: 5px;
+   
+}
+.readMeBannar img {
+    margin-top: 0px;
+	}
+
+	.profile {
+    	
+    top: 170px;
+    left: 44.5%;}
+
+
+.readBox {
+    height: 495px;
+  
+}
+
+
+
+
+
+
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+#menu{
+	display: none;
+}
+ nav #cssmenu{
+
+    display: block;
+    width: 50%;
+}
+
+h1,h2,h3,h4,{
+    font-size: 30px;
+} 
+.container{
+    width: 98%;
+    margin: 0 auto;
+
+}
+
+
+.right-header {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.left-header {
+    width: 50%;
+    float: right;
+    position: relative;
+
+}
+#cssmenu {
+    
+    background: #4c4b4b;
+    border-radius: 10px;
+    position: absolute ;
+    right: 30%;
+    z-index: 500;
+   
+}
+
+.ppwraper{ 
+    position: absolute ;
+   left:30%;
+}
+
+
+
+#cssmenu #menu-button:after,#cssmenu #menu-button:before {
+    
+    right:;
+   
+}
+.mainheader,.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	.contentWraper h1 {
+        font-size: 40px;
+    }
+    .wraper .rightPart{
+        display: none;
+    
+    }.container .wraper{
+    
+        background-image: url('image.png'), linear-gradient(#f0f0f0 ,#efefeff5);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 80% 107%;
+ 
+    } 
+    .leftPart {
+        width: 100%;
+        float: left;
+        top: 0;
+        
+    }
+    .wraper {
+        border-bottom: 1px solid #ddd;
+        width: 98%;
+        margin: 0 auto;
+        height: 500px;
+    }
+    .workWraper {
+        min-height: 17px;
+    }
+    .workBox {      
+        width: 75%;    
+        margin: 50px auto;
+        float: none;
+    }
+
+
+
+    .selpe{
+        display: none;
+    }
+   .rightPart {
+       background-image: url('  iam.png'), linear-gradient(#f0f0f0 ,#efefeff5);
+   
+       background-repeat: no-repeat;
+       background-position: right;
+       background-size:100% 100%;   	
+       width: 100%;
+       float: right;
+   }
+
+   .rightWraper span {
+  
+    word-spacing: 0px;
+    font-size: 70px;
+   }
+
+   .readMeBannar img {
+    margin-top: 0px;
+	}
+    .profile {
+        top: 165px;
+    }
+
+
+
+    .readMeBannar p {
+        padding: 20px 24px;
+    }
+	.profile{
+        
+        left: 40.5%;
+    }
+
+    
+
+.readBox {
+    width: 75%;
+    margin: 0px auto;
+    height: 520px;
+    float: none;
+}
+
+.footerWraper {
+    width: 85%;
+    margin: 0 auto;
+}   
+
+.footerMenu{
+    display: none;
+}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}

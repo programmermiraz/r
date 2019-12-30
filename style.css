@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap');
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	/*font-family: 'Merriweather', serif;*/
+    background:#ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.3s ease;
+
+
+}
+h1,h2,h3,h4{
+    color: #303031!important;
+}
+
+span,p{
+    color: #7d7676!important;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.fix{
+	overflow: hidden;
+}
+
+.main-container{
+
+	width: 100%;
+
+}
+.container{
+
+	width: 1100px;
+	margin: 0 auto;
+}
+header{
+	margin-top: 20px;
+}
+.mainheader {
+    width: 100%;
+    min-height: 60px;
+}
+
+
+.left-header img{
+	padding-top: 2.5px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+
+.ppwraper {
+	display: block;
+	float: left;
+    width: 152px;
+   
+}
+
+.ppwraper h4 {
+    font-size: 16px;
+   
+   padding-left: 60px;
+}
+.ppwraper h4 span{
+
+	font-size: 13px;
+	font-weight: 400;
+	display: block;
+}
+
+.right-header {
+    width: 850px;
+    float: right;
+}
+nav {
+
+	width: 450px;
+	float: right;}
+
+
+#menu li {
+    float: left;
+    transition: all 0.3s ease ;
+
+}
+#menu li a{
+	display: block;
+	padding: 8px 15px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #312d2d;
+}
+#menu li:hover{
+	border-bottom: 2px solid #585454;
+
+}
+#menu li:first-child{
+	border-bottom: 2px solid #585454;
+
+}
+
+#menu li:last-child{
+	border: 2px solid #585454;
+	border-radius: 20px;
+}
+#menu li:last-child:hover a{
+	background: #000;
+	color: white;
+	border-radius: 20px;
+}
+.wraper{
+
+	border-bottom: 1px solid #ddd;
+	width: 1100px;
+	height: 500px;
+}
+
+.leftPart {
+	
+    width: 50%;
+     float: left;
+
+     
+    
+
+}
+
+.rightPart {
+
+    width: 50%;
+    float: right;
+   
+}
+.rightPart img {
+    width: 85%;
+    margin: 0 auto;
+    height: 500px;
+    vertical-align: middle;
+}
+.contentWraper {
+    padding: 100px 48px;
+}
+
+.contentWraper h1 {
+    font-size: 50px;
+
+}
+
+.contentWraper h1 span {
+    font-weight: 300;
+    font-size: 40px;
+    color: #7d7676;
+}
+.contentWraper p {
+    font-size: 23px;
+    padding: 10px 0px;
+    color: #7d7676;
+}
+.contentWraper img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 0px 0px;
+    padding-right: 5px;
+}
+.buttonWraper {
+    width: 100%;
+    float: right;
+    margin: 30px 15px;
+}
+.buttonWraper a.active{
+	background: #424141f2; 
+	color: white;
+}
+
+.buttonWraper a {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #585454;
+    color: #1c1d1d;
+    border-radius: 33px;
+    margin: 0px 10px;
+}
+.buttonWraper a:hover{
+	background: #424141f2; 
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.work-section{
+	overflow: hidden;
+	height: fit-content;
+}
+
+.workWraper{
+	width: 100%;
+	min-height: 70px;
+}
+
+.workWraper ul {
+    width: 265px;
+    margin: 0 auto;
+}
+.workWraper ul li {float: left;}
+
+.workWraper ul li a {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4c4b4b;
+    padding: 25px 10px;
+}
+.workBox {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+    width: 325px;
+    height: fit-content;
+    margin: 19px;
+    float: left;
+    
+}
+
+.workBox img{
+
+	width: 100%;
+	height: 210px;
+	border-top-right-radius: 10px;
+	border-top-left-radius:  10px;
+	vertical-align: middle;
+}
+
+.boxTitle{
+
+	text-transform: uppercase;
+	background: #efefef;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius:  10px;
+}
+.boxTitle span{
+    font-size: 15px;
+    display:block;
+}
+.boxTitle h2 {
+    font-size: 20px;
+    display: inline-block;
+}
+.boxTitle h2.year{
+	float: right;
+}
+
+.boxTitle {
+    background: #efefef;
+    padding: 10px 10px;
+}
+
+.loadMore {
+    display: table;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.loadMore a {
+
+    border: 2px solid;
+    border-radius: 50px;
+    text-align: center; 
+    color: #4f5250;
+    padding: 5px 25px;
+   
+}
+.loadMore a:hover{
+	background: #424141f2; 
+	color: white;
+}
+
+
+
+
+
+
+.whoIam{
+	margin-top: 100px;
+	overflow: hidden;
+}
+
+.selpe.leftPart img {
+
+    width: 100%;
+}
+
+.rightWraper {
+    padding: 0px 50px;
+}
+
+.rightWraper h1 {
+	
+    font-size: 40px;
+}
+.rightWraper span {
+    display: block;
+    word-spacing: 29px;
+    font-size: 80px;
+    font-weight: 800;
+  
+}
+.rightWraper p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+
+
+.readMeSection{
+    overflow: hidden;
+}
+
+.readMeBannar{
+	width: 100%;
+	min-height: 220px;
+    position: relative;
+
+}
+.readMeBannar img{
+    margin-top: 150px;
+	position: relative;
+	width: 100%;
+	height: 220px;
+    display: block;
+	
+	
+}
+.readMeBannar p {
+    position: absolute;
+    top: 0;
+    color: white!important;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 73px 223px;
+}
+
+
+.profile {
+    position: absolute;
+    top: 15px;
+    left: 45.5%;
+    text-align: center;
+}
+
+
+.profile img {
+    display: block;
+    border: 3px solid white;
+    margin-left: 3px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.profileTitle {
+    display: block!important;
+}
+.profileTitle h3{
+    font-size: 13px;
+}
+.profileTitle span{
+    display: block;
+    font-size: 12px;
+}
+.profileTitle .iBox {
+    
+    margin-top: -8px;
+}
+.profileTitle i{
+    font-size: 11px;
+}
+.redMeTitleWraper span {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.redMeTitleWraper h1 {
+    font-size: 38px;
+}
+.readMeTitle{
+    margin-top: 200px;
+    text-align: center; 
+    position: relative;
+}
+ .readBox .dateBox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #060000db;
+    color: white;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    text-align: center;
+}
+.readBox {
+    height: 565px;
+    margin: 23px;
+}
+.readBox{
+    position: relative;
+    width: 320px; 
+    height:600px;
+    margin: 23px;
+    float: left;
+    text-align: left
+}
+.readBox img {
+    display: block;
+    width: 100%;
+    height: 220px;
+}
+.readBox h4{
+
+    margin-top: 25px;
+}
+.readBox span{
+    font-size: 18px;
+}
+.readBox p {
+    font-size: 13px;
+    padding: 15px 0px 30px 0px;
+}
+
+.readMoreBtn a {
+    padding: 7px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 2px solid #585454;
+    color: #1c1d1d;
+    border-radius: 33px;
+}
+.readMoreBtn a:hover{
+    background: #424141f2; 
+    color: white;
+}
+.morePosts{
+    position: absolute;
+    top: 600px;
+    left: 900px}
+.morePosts a {
+    color: #696666;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+
+footer{
+    position: relative; 
+}
+.fWraper{
+
+
+    position: absolute;
+    bottom: 0;
+     background: #343031;
+     width: 100%;
+     min-height: 60px;
+     color: #ddd;
+     font-size: 15px;
+ }
+
+
+.footerWraper span {
+    width: 220px;
+    margin: 24px 15px;
+    display: block;
+    float: left;
+}
+.footerWraper img {
+    float: left;
+    margin: 23px 2px;
+    width: 20px;
+    height: 20px;
+}
+.footerMenu{ 
+    width: 350px;
+    float: right;
+  
+
+}
+.footerMenu ul li{
+    float: left;
+    padding: 17px 0px;
+}
+.footerMenu li a.last-child{
+    border: 1px solid #585454;
+    border-radius: 20px;
+}
+.footerMenu ul li a {
+    display: block;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: #ddd;
+}
